@@ -1,0 +1,96 @@
+.product {
+    flex: 0 0 calc(25% - 30px);
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.product button {
+    background-color: #16a085;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Product container */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Add to cart symbol */
+/* Cart section */
+.cart {
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    width: 300px;
+    background-color: #fcfcfc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+    /* Ensure the cart is above other elements */
+    color: white;
+}
+
+.cart h2 {
+    margin-bottom: 0px;
+    /* Add some space below the heading */
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* Remove default margin */
+}
+
+.cart li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.cart button {
+    background-color: white;
+    color: #16a085;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cart-symbol {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #16a085;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    /* Ensure the cart symbol is above other elements */
+}
+
+button:hover {
+    background-color: rgb(79, 76, 76);
+}
+
+button:active {
+    box-shadow:
+        inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}

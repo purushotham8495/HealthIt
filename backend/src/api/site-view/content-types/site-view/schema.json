@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "site_views",
+  "info": {
+    "singularName": "site-view",
+    "pluralName": "site-views",
+    "displayName": "SiteView"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "count": {
+      "type": "integer"
+    }
+  }
+}

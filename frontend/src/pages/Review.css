@@ -1,0 +1,48 @@
+/* Review.css */
+
+.container {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #16a085;
+    /* Dark green text */
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #16a085;
+    /* Dark green text */
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #16a085;
+    /* Dark green border */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #16a085;
+    /* Dark green button */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #16a085;
+    /* Darker green on hover */
+}
